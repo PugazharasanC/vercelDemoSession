@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node" : "14.x"
+    "node": "14.x"
   },
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/PugazharasanC/vercelDemoSession/issues"
   },
-  "homepage": "https://github.com/PugazharasanC/vercelDemoSession#readme"
+  "homepage": "https://github.com/PugazharasanC/vercelDemoSession#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
 }
